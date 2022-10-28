@@ -24,7 +24,7 @@ https://en.gravatar.com/site/implement/images/
 param (
     [Parameter()][String]$EmailAddress,
     [Parameter()][Switch]$ForceImage,
-    [Parameter()][ValidateSet("identicon", "monsterid", "wavatar", "retro", "robohash")][String]$GravatarType = "monsterid",
+    [Parameter()][ValidateSet("identicon", "monsterid", "wavatar", "retro", "robohash")][String]$GravatarType = "robohash",
     [Parameter()][Int]$ImageSize = 400
 )
 
